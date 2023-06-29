@@ -16,26 +16,30 @@ The `NFTAward.sol` contract handles the distribution of NFTs to top-performing a
 
 1. Clone the repository:
 
-   ```shell
-   git clone https://github.com/Arpan-pujara/NftAward.git
-  ```
+```shell
+git clone https://github.com/Arpan-pujara/NftAward.git
+```
 
 2. Install the necessary dependencies:
 
-  ```shell
-  yarn
-  ```
+```shell
+yarn
+```
+
 3. Compile the contracts:
 
-  ```shell
-    yarn hardhat compile
-  ```
-4. Test the contracts:
-  ```shell 
-    yarn hardhat test
-  ```
-5. Deploy the contracts to the mumbai network
-  ```shell
-  yarn hardhat deploy --network polygon
-  ```
+```shell
+  yarn hardhat compile
+```
 
+4. Test the contracts:
+
+```shell
+  yarn hardhat test
+```
+
+5. Deploy the contracts to the mumbai network
+
+```shell
+yarn hardhat deploy --network polygon
+```
